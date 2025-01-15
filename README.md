@@ -4,10 +4,18 @@ Some of the features have been removed from the public version of the web applic
 
 
 
-**Application overview demo**
+**Page overview demo**
 
 ![SM_WebApp_Overview](https://github.com/user-attachments/assets/ea6472cf-9e0e-4290-bd5d-ca835bf07325)
 
+
+
+
+**Application overview demo**
+
+
+
+![SM_App_overview](https://github.com/user-attachments/assets/f2970460-9b41-4180-b47d-1cb5ae1928ba)
 
 
 
