@@ -1,7 +1,8 @@
 SwatMaps can be accessed through this link: https://mugwe1.pythonanywhere.com/
 
-Some of the features have been removed from the public version of the web application due to safety reasons. However, demos are provided below:
+Some of the features have been removed from the public version of the web application due to safety reasons. Additionally, some folders have also not been pushed to the repository for similar reasons. 
 
+However, demos are provided below:
 
 
 **Page overview demo**
