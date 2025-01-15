@@ -1,5 +1,7 @@
 SwatMaps can be accessed through this link: https://mugwe1.pythonanywhere.com/
 
+This was a student project that was developed by Rain, Mehtap, Tina, and I, with the original repo residing in Swat's org github
+
 Some of the features have been removed from the public version of the web application due to safety reasons. Additionally, some folders have also not been pushed to the repository for similar reasons. 
 
 However, demos are provided below:
