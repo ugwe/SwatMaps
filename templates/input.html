@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "../static/styles/style.css">
+    <link rel="icon" href="../static/images/Swat Maps Logo/logo-transparent-tab-icon-png.png">
+    <title>Swat Maps - Input</title>
+</head>
+<body>
+    <div id="homepage">
+        <!-- Nav Bar -->    
+        <div id="navbar-container">
+            <ul>
+                <li><img src="static/images/Swat Maps Logo/logo-transparent-svg.svg"></li>
+                <li><a href="index.html" id="MapsPage">Maps</a></li>
+                <li><a href="input.html" id="InputPage" class="active">Input</a></li>
+                <li><a href="about.html" id="AboutPage">About</a></li>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Academic Buildings</button>
+                    <div class="dropdown-content">
+                      <a href="beardsley.html">Beardsley</a>
+                      <a href="clothier.html">Clothier</a>
+                      <a href="kohlberg.html">Kohlberg</a>
+                      <a href="lang_center.html">Lang Center</a>
+                      <a href="lang_music.html">Lang Music</a>
+                      <a href="lpac.html">LPAC</a>
+                      <a href="mccabe.html">McCabe</a>
+                      <a href="old_tarble.html">Old Tarble</a>
+                      <a href="parish.html">Parrish</a>
+                      <a href="pearson.html">Pearson</a>
+                      <a href="sci.html">Sci Center</a>
+                      <a href="singer.html">Singer</a>
+                      <a href="trotter.html">Trotter</a>
+                      <a href="whittier.html">Whittier</a>
+                    </div>
+                </div> 
+            </ul>
+        </div>
+        <div id="text_input">
+            <h2 class="center"><b>We welcome your input!</b></h2>
+            <p> <b>This is the input page for Swat Maps.</b> You can use this page 
+                to give us suggestions about additional content and features you would like to see, shower us with
+                compliments and tells how cool we are, or rant about anything your heart desires. You can also
+                share feedback on our project and any questions, comments, and criticisms you may have, but we 
+                prefer the former. We welcome your input and appreciate you taking the time to write to us.</p>
+
+            <hr>
+            <div id="formOuterDiv">
+                <form id="formInput">
+                    <h3>Compliments and Suggestions</h3>
+                    <div id="textAreaDiv">
+                        <textarea id="formMessage" placeholder="Write your message here..."></textarea>
+                    </div>
+                    <div id="formButtons">
+                        <button type="button" id="clearButton">Clear</button>
+                        <button type="button" onclick="inputRow()" id="submitButton">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- modal (pop-up message) -->
+        <div id="thanks-modal" class="modal">
+            <div class="modal-content">
+                <div id="modal-text-container">
+                    <p id="modal-text-container-p">Thank you for sending us a message!</p>
+                </div>
+                <img src="../static/images/Modal/thank-you.gif" id="modal-image">
+                </div>
+            </div>
+    </div>
+    <script src="../static/scripts/input.js"></script>
+</body>
+</html>

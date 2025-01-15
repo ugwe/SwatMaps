@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    response: 
+    <div id="results">
+        i dont know why this isnt working 
+    </div>
+    <script> 
+    function getRow() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if(this.readyState == 4 && this.status == 200) {
+            console.log("Response Data: " + this.responseText);
+            document.getElementById("results").innerHTML = this.responseText;
+           }
+        };
+        xhttp.open("GET", "/getRow", true);
+        xhttp.send();
+    }
+
+    getRow();
+    </script>
+</body>
+</html>
